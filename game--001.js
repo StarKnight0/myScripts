@@ -227,7 +227,7 @@ Player.prototype.die = function(){
 
 
 Player.prototype.draw = function(){
-	Game.ctx.fillStyle = Game.ctx.createPattern(img, "no-repeat");
+	Game.ctx.fillStyle = Game.ctx.createPattern(img, "repeat");
 	Game.ctx.fillRect(this.x, this.y, this.width, this.height);
 };
 
