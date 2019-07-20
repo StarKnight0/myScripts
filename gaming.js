@@ -227,7 +227,7 @@ Player.prototype.die = function(){
 
 
 Player.prototype.draw = function(){
-	Game.ctx.fillStyle = this.color;
+	Game.ctx.fillStyle = this.backgroundImage;
 	Game.ctx.fillRect(this.x, this.y, this.width, this.height);
 };
 
