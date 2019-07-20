@@ -211,7 +211,7 @@ var Player = function(){
 	this.movingRight = false;
 	this.speed = 8;
 	this.invincible = false;
-	this.color = "white";
+	this.backgroundImage = "url('https://i.gyazo.com/2fbd216639852f676f897abf2bd2bd43.jpg')";
 };
 
 
