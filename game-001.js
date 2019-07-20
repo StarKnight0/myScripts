@@ -4,7 +4,7 @@
 
 (function(window){
 
-var Imag = document.querySelector("img");
+var img = document.querySelector("img");
 var Game = {
 
 	init: function(){
