@@ -4,6 +4,7 @@
 
 (function(window){
 
+var Imag = document.querySelector("img");
 var Game = {
 
 	init: function(){
@@ -211,7 +212,6 @@ var Player = function(){
 	this.movingRight = false;
 	this.speed = 8;
 	this.invincible = false;
-	this.backgroundImage = "url('https://i.gyazo.com/2fbd216639852f676f897abf2bd2bd43.jpg')";
 };
 
 
@@ -227,7 +227,7 @@ Player.prototype.die = function(){
 
 
 Player.prototype.draw = function(){
-	Game.ctx.fillStyle = this.backgroundImage;
+	Game.ctx.fillStyle = ctx.createPattern(img, "no-repeat");
 	Game.ctx.fillRect(this.x, this.y, this.width, this.height);
 };
 
